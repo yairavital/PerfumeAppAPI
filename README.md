@@ -1,4 +1,4 @@
-# PerfumeAppAPI
+# PerfumeAppAPI 💎
 
 A Backend server side for perfume shop
 - RESTful API for user & products management.
