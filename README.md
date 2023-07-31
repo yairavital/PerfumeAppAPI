@@ -32,4 +32,9 @@ bash
 "Keys": {
 "Key": "this is my amazing very Secret key for authentication"
 }
-
+- Open the file appsettings.json located in the Perfume Store project folder and modify the following connection string with your own Microsoft SQL Server database connection string:
+"ConnectionStrings": {
+  "ConnectionString": "Server=<your-server-name>;Database=PerfumeStoreDb;Trusted_Connection = True;TrustServerCertificate= True;
+}
+- Open the Package Manager Console in Visual Studio, select the PerfumeStore.Data project, and run the following command to create the database schema:
+update-database
