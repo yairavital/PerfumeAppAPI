@@ -35,6 +35,6 @@ bash
   "ConnectionString": "Server=<your-server-name>;Database=PerfumeStoreDb;Trusted_Connection = True;TrustServerCertificate= True;
 }`
 - Open the Package Manager Console in Visual Studio, select the PerfumeStore.Data project, and run the following command to create the database schema:
-- 
+  
 `
 update-database`
