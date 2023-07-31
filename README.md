@@ -32,10 +32,10 @@ git clone https://github.com/yairavital/PerfumeAppAPI
 - Open the solution file PerfumeAppAPI.sln in Visual Studio.
 - Build the solution to restore NuGet packages and compile the project.
 - Create a new Microsoft SQL Server database to store the application data.
-- Open the file appsettings.json located in the EBook project folder and modify the following connection string with your own Microsoft SQL Server database connection string:
+- Open the file appsettings.json located in the PerfumeAppAPI project folder and modify the following connection string with your own Microsoft SQL Server database connection string:
 bash
 "ConnectionStrings": {
-  "ConnectionString": "Server=<your-server-name>;Database=EBookDB;Trusted_Connection = True;TrustServerCertificate= True;"
+  "ConnectionString": "Server=<your-server-name>;Database=PerfumeApp;Trusted_Connection = True;TrustServerCertificate= True;"
 }
 
 - Open the file StoreDBContext.cs located in the PerfumeAppAPI/Data project folder and modify the following connection string with your own Microsoft SQL Server database connection string:
@@ -45,7 +45,7 @@ optionsBuilder.UseSqlServer("Server=<your-server-name>;Database=PerfumeStoreDb;T
 
 
 
-- Open the file secrets.json located in the EBook project folder and set the following key:
+- Open the file secrets.json located in the PerfumeAppAPI project folder and set the following key:
 bash
 "Keys": {
 "Key": "this is my amazing very Secret key for authentication"
